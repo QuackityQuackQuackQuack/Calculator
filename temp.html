@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature Calculator</title>
+</head>
+<body>
+    <nav>
+        <h1>Convveta</h1>
+        <ul>
+        <li><a href="index.html">Basic Calculator</a></li>
+        <li><a href="area.html">Area Convertor</a></li>
+        <li><a href="perimeter.html">Perimeter Convertor</a></li>
+        <li><a href="temp.html">Temperature Convertor</a></li>
+        <li><a href="">Currency Convertor</a></li>
+        </ul>
+    </nav>
+    <header>
+        <div class="cal-area">
+            <h3>Temperature Convertor</h3>
+        <input type="text" id="value" placeholder="Enter Value">
+        <div class="items">
+            <input type="radio" name="temp" id="celsius">
+            <label for="">Celsius</label>
+            <input type="radio" name="temp" id="farenheit">
+            <label for="">Farenheit</label>
+        </div>
+
+
+        <div class="btn-wrapper">
+            <button onclick="temp()">Convert</button>
+        </div>
+        </div>
+        <h3>Result</h3>
+        <div class="result-area">
+            <p id="result"></p>
+        </div>
+    </header>
+    <script src="app.js"></script>
+</body>
+</html>
